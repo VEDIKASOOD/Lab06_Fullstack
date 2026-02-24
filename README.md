@@ -57,6 +57,7 @@ Backend Setup (Step-by-Step)
 
 Step 1: Navigate to Backend Folder
 cd backend
+
 Step 2: Initialize Node.js Project
 npm init -y
 
@@ -87,8 +88,10 @@ On successful execution, the terminal displays:
 Server running on port 3000
 
 Frontend Setup (Step-by-Step)
+
 Step 6: Navigate to Frontend Folder
 cd frontend
+
 Step 7: Create React Project Using Vite
 npm create vite@latest . -- --template react
 
@@ -96,6 +99,7 @@ Vite is used as it provides faster build time and efficient hot module replaceme
 
 Step 8: Install Frontend Dependencies
 npm install
+
 Step 9: Run Frontend Development Server
 npm run dev
 
@@ -114,12 +118,16 @@ README.md (this file) explains the entire project workflow, structure, and execu
 Both files serve different purposes and are intentionally placed in their respective directories.
 
 Git and GitHub Workflow
+
 Step 10: Initialize Git Repository
 git init
+
 Step 11: Add Files to Git
 git add .
+
 Step 12: Commit Changes
 git commit -m "Lab 06 full stack project setup"
+
 Step 13: Push Project to GitHub
 git branch -M main
 git remote add origin <repository-url>
